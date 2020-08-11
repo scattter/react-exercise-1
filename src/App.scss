@@ -5,5 +5,40 @@
   padding: 0 2 * $base-padding 2 * $base-padding 2 * $base-padding;
 
   width: 960px;
+  height: 600px;
   background-color: $white;
+}
+
+img {
+  margin-top: -125px;
+  margin-bottom: 15px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.context {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.context .year,.more{
+  display: inline-block;
+}
+.context .year {
+  font-weight: bold;
+  vertical-align: top;
+}
+.context .more {
+  margin-left: 40px;
+  height: 50px;
+  width: 840px;
+  background-color: rgb(238, 234, 234);
+}
+.context .more p {
+  padding-left: 10px;
+  transform: translate(0,50%);
+}
+
+.context .more .text {
+  font-weight: bold;
+  margin-bottom: 5px;
 }
